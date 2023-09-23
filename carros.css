@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.fundo {
+    width: 1920px;
+    
+}
+
+.garage {
+    position: absolute;
+    margin-left: -1810px;
+    margin-top: 70px;
+    width: 1700px;
+}
+
+.car1 {
+    width: 1150px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.car2 {
+    width: 1200px;
+    margin-left: 280px;
+    margin-top: -160px;
+}
+.car3 {
+    width: 1000px;
+    margin-left: 300px;
+}
+  
+.car4 {
+    width: 1050px;
+    margin-left: 300px;
+}
+.car5 {
+    width: 940px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.car6 {
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+section {
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 120px;
+    height: 850px;
+    width: 1650px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    margin: 150px 0;
+}
+
+section .card .image img:hover {
+    transform: scale(1.01);
+
+}
+    
+.swiper-pagination {
+    position: absolute;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #ffffff;
+}

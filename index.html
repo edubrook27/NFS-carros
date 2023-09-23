@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carros.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>NFS</title>
+</head>
+<body>
+    
+    <img class="fundo" src="Carros/fundo.crdownload" alt="">
+    <img class="garage" src="Carros/garage.jpg" alt="">
+
+    <section>
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car1" src="Carros/car1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car2" src="Carros/car2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car3" src="Carros/car3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car4" src="Carros/car4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car5" src="Carros/car5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img class="car6" src="Carros/car6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+
+        var swiper = new Swiper(" .mySwiper", {
+            slidesPerView:1,
+            spaceBetween:10,
+            slidesPerGroup:1,
+            loop:true,
+            loopFillGroupWithBlank:true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickkable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        }
+        )
+    </script>
+</body>
+</html>
